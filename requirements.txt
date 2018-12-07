@@ -1,0 +1,6 @@
+django~=2.1.0
+pillow
+django-heroku
+whitenoise
+gunicorn
+psycopg2
