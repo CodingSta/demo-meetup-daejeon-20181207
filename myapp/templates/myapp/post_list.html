@@ -1,0 +1,11 @@
+
+
+{% for post in post_list %}
+    {% if post.photo %}
+        <img src="{{ post.photo.url }}" style="max-width: 100%;" />
+    {% endif %}
+    {{ post.message }}
+    {{ post.created_at }}
+
+    <hr/>
+{% endfor %}
